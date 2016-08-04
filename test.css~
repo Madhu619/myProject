@@ -1,0 +1,17 @@
+#logo
+{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    float: right;
+
+    background-image: url('/home/maddy/index.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#logo:hover
+{
+    background-image: url('/home/maddy/index.jpeg');
+}
+

@@ -1,0 +1,50 @@
+<?php
+$msg='';
+?>
+
+</head><!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html'; charset='UTF-8' http-equiv='Content-Type'/>
+<link rel="stylesheet" type="text/css" href="Style.css" />
+<title>Login </title>
+</head>
+
+<body>
+
+<center><h2 style="color:white"> Hemophilia an X-Linked Hierarchy </h2></center>
+
+<div id="formbox">
+<div id="log" style="color:white"><h1>Welcome to Login Page</div></h1><br/>
+<form action="logincheck.php" method="POST">
+<input type="text" name="username" placeholder="Enter User Name" pattern="(^[aA-zZ0-9]*)" 
+	maxlength="10" required autofocus title="Only alphanumeric. Spaces are not allowed." 
+	style="background: white url(images/iconUser.png) left no-repeat;
+	background-position: 6px;"/><br/>
+<input type="password" name="password" placeholder="Enter Password" pattern="(^[aA-zZ0-9]*)" 
+	maxlength="20" required title="Only alphanumeric. Spaces are not allowed." 
+	style="margin-top:5px;background: white url(images/iconLock.png) left no-repeat;
+	background-position: 8px; "/><br/><br/>
+
+<input type="submit" value="Login" />
+<input type="reset" value="Reset"  />
+	<br/><br/>
+ </form>
+<p style="color:red;font-weight:bold;"> <?php echo $_REQUEST['msg']; ?>
+</p>
+
+
+<h4 style="color:green"> Not a member ?</h4>
+
+<form action="newlogin.php" method="POST">
+<input id="register" type="submit" name="submit" value="Signup" />
+</form>
+<p> Copyright &copy;  RVCE,MCA-2015</p>
+</div>
+<br/><br/><br/>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,53 @@
+<?php
+include("session.php");
+
+echo "<h3 align='right'> Logged User : ".$_SESSION['login_user']."</h3>";
+echo "<div style='float:right'><h4 align=right top><a href='logout.php'>Sign Out</a></h4>       </div> <br/> <br/>";
+?>
+
+
+
+
+<?php $host = 'localhost';
+$user = 'root';
+$pass = 'madhu';
+$db = 'project';
+ 
+mysql_connect($host, $user, $pass) OR DIE (mysql_error());
+ 
+// select the db
+mysql_select_db ($db) OR DIE ("Unable to select db".mysql_error());
+ ?>
+<title> Symptoms </title>
+<body bgcolor="#FAA">
+<center><h1 style="color:black;font-family:times new roman; font:italic"> Symptoms of Hemophilia </h1> <br/><br/>
+<h3 align="justify">
+The main symptom of hemophilia is that once bleeding starts the child bleeds longer than normal.
+
+Hemophilia symptoms can range from mild to severe. This depends on how low the level of the clotting protein is.
+
+Some people with mild hemophilia may not even know they have the disease until adulthood. Minor injuries may not cause any noticeable problem. It may take a major trauma or surgery to cause enough bleeding that the problem becomes known.
+
+On the other hand, someone with severe hemophilia may frequently bleed without any known reason or injury. This is called "spontaneous" bleeding. Sometimes this type of bleeding occurs in a joint, like the knee or elbow, which can be quite painful.
+</h3>
+
+<?php
+
+echo "<center><div style='align:center;border:1px solid black;width:80%;background:white;padding-left:40px;padding-right:40px;'>";
+
+echo "<center><h2 style='float:left;color:green'> <marquee>Symptoms</marquee> </h2> <br/><br/>";
+$selectsql="select * from symptoms ";
+$result=mysql_query($selectsql);
+echo "<br/><br/><center><table border=1width=100% ><tr>  <th> Symptom No </th><th> Symptoms </th>";
+while($row = mysql_fetch_array($result))
+{
+echo " <tr> <td align='center'> ".$row['id']."</td><td>".$row['sym']."</td>";
+}
+
+echo "</table> </center><br/><br/>";
+?>
+</div> <br/> <br/>
+<center><table border="0" padding:0 35px 0 35px;> <td><a style="color=red" href='home.php'>Home</a><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><td><a href='contact.php'>Contact </a></td> <td> </td> <td></td><td></td><td></td><td></td><td></td><td></td><td><td> <a href="medicine.php"> Medicine </td></table> <br/>
+<center> Copyright &copy;  RVCE,MCA-2015 : All rights reserved</p> 
+
+</body>

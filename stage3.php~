@@ -1,0 +1,21 @@
+<body bgcolor="cyan">
+<center><h2 style="color:red"> Stage I of the  Hemophilia an X-Linked Hierarchy </h2> <br/>
+<center><div style="align:center;border:1px solid black;width:80%;background:white;padding-left:40px;padding-right:40px;">
+<center><p><h3 style="color:green; font-style:italic"><marquee> Carrier Mother Genetics   </marquee></h3>   </center>  
+         <p><center><img src="images/geneFatherMother.gif" width="479" height="442">
+
+</center></p>            <p align="Left"></p><p>When a Mother who is a carrier and an unaffected Father create a child there are four possible outcomes for each pregnancy. As illustrated above, they can have a son without hemophilia, a daughter who is not a carrier, a son with hemophilia or a daughter who is a carrier. With each pregnancy there is an equal chance of each of these outcomes. Whether the sons have hemophilia or the daughters are carriers depends upon which X chromosome they receive from the mother.   
+
+         
+<style>
+td
+{
+    padding:0 25px 0 25px;
+}
+</style>
+
+<center><table border="0" padding:0 15px 0 15px;> <td><a href='home.php'>Home</a></td><td><a href='medicine.php'> Medicine </a></td><td><a href='Gallery.php'> Gallery </a></td><td><a href='contact.php'>Contact </a></td></table>
+<p><center> Copyright &copy;  RVCE,MCA-2015 : All rights reserved</p> 
+	</html>
+
+

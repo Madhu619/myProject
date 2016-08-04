@@ -1,0 +1,20 @@
+<body bgcolor="cyan">
+<center><h2 style="color:red"> Stage I of the  Hemophilia an X-Linked Hierarchy </h2> <br/>
+<center><div style="align:center;border:1px solid black;width:80%;background:white;padding-left:40px;padding-right:40px;">
+<center><p><h3 style="color:green; font-style:italic"><marquee>Father with Hemophilia Genetics</marquee></h3>  
+
+          <p><center><img src="images/geneFather.gif" width="381" height="421"></center></p>            <p align="Left">When a Father who has hemophilia and a unaffected by hemophilia create a child there are two possible outcomes for each pregnancy. The sons will always receive an unaffected X chromosome from the mother and an unaffected Y chromosome from the father resulting in sons all without hemophilia. The Daughters will always receive the hemophilia affected X chromosome from the father and an unaffected X chromosome from the mother resulting in daughters that are all carriers. Mother As illustrated above none of the sons will be affected by hemophilia and all of the daughters will be carriers.  
+
+         
+<style>
+td
+{
+    padding:0 25px 0 25px;
+}
+</style>
+
+<center><table border="0" padding:0 15px 0 15px;> <td><a href='home.php'>Home</a></td><td><a href='medicine.php'> Medicine </a></td><td><a href='Gallery.php'> Gallery </a></td><td><a href='contact.php'>Contact </a></td></table>
+<p><center> Copyright &copy;  RVCE,MCA-2015 : All rights reserved</p> 
+	</html>
+
+

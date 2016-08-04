@@ -1,0 +1,13 @@
+<html>
+<head>
+<style>
+    body{background:url(blood.jpg);}
+    form{background:url(images/blood and DNA.jpg);}
+</style>
+</head>
+<body style="background:url('blood.jpg');">
+Maddy
+<form style="background:url('images/blood and DNA.jpg');" method="post" action="your action">
+
+</body>
+</html>

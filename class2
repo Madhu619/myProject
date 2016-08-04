@@ -1,0 +1,30 @@
+<?php
+session_start();
+include("config.php");
+echo "<title> Class1 </title>";
+
+echo "<center><h2 style='color:green'> Available Class1 Medicine </h2>";
+echo "<center><div style='align:center;border:1px solid black;width:40%;background:white;padding-left:40px;padding-right:40px;'>";
+$selectsql="select * from medicine where class='class1'";
+$result=mysql_query($selectsql);
+echo "<center><table border=3><tr> <th> Class </th> <th> Medicine Name </th><th> Quantity </th><th> Price </th>";
+while($row = mysql_fetch_array($result))
+{
+echo " <tr> <td>".$row['class']."</td><td>".$row['name']."</td><td>".$row['quantity']."</td><td>".$row['price'];
+}
+
+echo "</table> </center>";
+?>
+
+<style>
+body
+{
+
+    background:  url(images/med1.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+<body> </body>
